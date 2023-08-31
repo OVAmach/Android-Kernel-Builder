@@ -5,7 +5,7 @@
       "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_venus",
       "branch": "twelve",
       "device": "venus",
-      "defconfig": "vendor/venus-qgki_defconfig"
+      "defconfig": "gki_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
