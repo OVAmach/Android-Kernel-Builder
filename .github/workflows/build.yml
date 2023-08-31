@@ -231,6 +231,8 @@ jobs:
 
       - name: "💛 Upload build"
         uses: actions/upload-artifact@v3
+        env:
+          arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
           name: build-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
           path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot.tar.gz
