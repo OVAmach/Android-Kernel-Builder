@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "venus-kernelsu",
-      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_venus",
+      "repo": "https://github.com/OVAmach/kernel_xiaomi_venus_jjpprrr",
       "branch": "twelve",
       "device": "venus",
-      "defconfig": "vendor/venus-qgki_defconfig"
+      "defconfig": "venus_stock_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
