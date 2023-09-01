@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "venus-kernelsu",
       "repo": "https://github.com/OVAmach/kernel_xiaomi_venus_jjpprrr",
-      "branch": "twelve",
+      "branch": "5.4.147",
       "device": "venus",
       "defconfig": "venus_stock_defconfig"
     },
